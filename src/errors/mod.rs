@@ -10,5 +10,3 @@ pub fn api_fallback() -> (StatusCode, Json<Value>) {
 
     (StatusCode::NOT_FOUND, Json(body))
 }  
-  
-   
